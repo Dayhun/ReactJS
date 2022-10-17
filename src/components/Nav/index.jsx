@@ -1,12 +1,15 @@
-import { LogoIcon, ShoppingCartIcon, UserIcon } from '../Icon/index'
-import { NavContainer, SearchBox, NavImgContainer } from './index.style'
+import { LogoIcon, SearchIcon, ShoppingCartIcon, UserIcon } from '../Icon/index'
+import { NavContainer, SearchContainer, SearchBox, NavImgContainer } from './index.style'
 
 function Nav() {
     return (
         <>
             <NavContainer>
                 <LogoIcon />
-                <SearchBox />
+                <SearchContainer>
+                    <SearchBox />
+                    <SearchIcon />
+                </SearchContainer>
                 <NavImgContainer>
                     <ShoppingCartIcon />
                     <UserIcon />

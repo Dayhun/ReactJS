@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import SearchIcon from '../../assets/icon-search-2.svg'
+// import SearchIcon from '../../assets/icon-search-2.svg'
 
 export const NavContainer = styled.div`
 background-color:black;
@@ -12,11 +12,9 @@ top: 0;
 position: sticky;
 `
 
-export const SearchBox = styled.input.attrs({
-    type: 'text',
-    id: 'search',
-    placeholder: '상품을 검색해보세요!',
-})`
+export const SearchContainer = styled.div`
+display: flex;
+align-items: center;
 background-color:black;
 width: 400px;
 height: 46px;
@@ -24,17 +22,19 @@ border: 2px solid #21BF48;
 border-radius: 50px;
 text-align: left;
 padding: 13px;
+`
+
+export const SearchBox = styled.input.attrs({
+    type: 'text',
+    id: 'search',
+    placeholder: '상품을 검색해보세요!',
+})
+    `
+width: 100%;
+border: none;
+background-color:black;
 color: #21BF48;
-&::after {
-        /* position: absolute; */
-        content: '';
-        /* right: 0px;
-        bottom: 0px; */
-        width: 28px;
-        height: 28px;
-        background: url(${SearchIcon}) no-repeat center / 28px 28px;
-        /* border-radius: 50%; */
-    }
+margin-left: 20px;
 `
 
 export const NavImgContainer = styled.div`

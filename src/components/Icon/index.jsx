@@ -1,13 +1,22 @@
 import LogoImg from '../../assets/Logo-hodu.png'
+import SearchImg from '../../assets/icon-search-2.svg'
 import ShoppingCartImg from '../../assets/icon-shopping-cart-2.svg'
 import UserImg from '../../assets/icon-user-2.svg'
-import { LogoContainer, ShoppingContainer, UserContainer } from './index.style';
+import { LogoContainer, SearchContainer, ShoppingContainer, UserContainer } from './index.style';
 
 function LogoIcon() {
     return (
         <LogoContainer>
             <img src={LogoImg} className='logoimg' alt='로고이미지' />
         </LogoContainer>
+    )
+}
+
+function SearchIcon() {
+    return (
+        <SearchContainer>
+            <img src={SearchImg} className='searchimg' alt='돋보기이미지' />
+        </SearchContainer>
     )
 }
 function ShoppingCartIcon() {
@@ -28,4 +37,4 @@ function UserIcon() {
     )
 }
 
-export { LogoIcon, ShoppingCartIcon, UserIcon };
+export { LogoIcon, SearchIcon, ShoppingCartIcon, UserIcon };

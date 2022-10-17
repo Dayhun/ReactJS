@@ -8,6 +8,15 @@ height: 38px;
     margin-right: 10px;
 }
 `
+
+export const SearchContainer = styled.div`
+width: 28px;
+margin: 7px 20px 7px 0px;
+.searchimg{
+    width:28px;
+}
+`
+
 export const ShoppingContainer = styled.div`
 width: 45px;
 height: 50px;
