@@ -1,9 +1,11 @@
-import Homepage from "./pages/homepage";
+import Homepage from "./pages/HomePage";
+import Joinpage from "./pages/JoinPage";
 
 function App() {
   return (
     <div>
-      <Homepage />
+      {/* <Homepage /> */}
+      <Joinpage />
     </div>
   );
 }

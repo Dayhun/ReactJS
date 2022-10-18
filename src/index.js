@@ -7,6 +7,10 @@ import App from './App';
 
 const GlobalStyle = createGlobalStyle`
     ${reset}
+    body {
+        font-family: 'Spoqa Han Sans Neo';
+        font-style: normal;
+    }
     li {
         list-style: none;
     }
@@ -80,9 +84,9 @@ const GlobalStyle = createGlobalStyle`
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 ReactDOM.render(
-  <React.StrictMode>
-    <GlobalStyle />
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <GlobalStyle />
+        <App />
+    </React.StrictMode>,
+    document.getElementById('root')
 );
