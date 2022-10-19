@@ -2,9 +2,13 @@ import styled from 'styled-components';
 
 export const JoinContainer = styled.section`
     width: 550px;
-    height: 776px;
     border-radius: 10px;
     margin: 0 auto;
+    .loginForm{
+        border: 1px solid #C4C4C4;
+        border-radius: 10px;
+        padding: 34px;
+    }
 `
 
 export const BuyerJoinBtn = styled.button`

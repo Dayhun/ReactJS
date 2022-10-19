@@ -1,7 +1,7 @@
-import LogoImg from '../../assets/Logo-hodu.png'
-import SearchImg from '../../assets/icon-search-2.svg'
-import ShoppingCartImg from '../../assets/icon-shopping-cart-2.svg'
-import UserImg from '../../assets/icon-user-2.svg'
+import LogoImg from '../../../assets/Logo-hodu.png'
+import SearchImg from '../../../assets/icon-search-2.svg'
+import ShoppingCartImg from '../../../assets/icon-shopping-cart-2.svg'
+import UserImg from '../../../assets/icon-user-2.svg'
 import { LogoContainer, SearchContainer, ShoppingContainer, UserContainer } from './index.style';
 
 function LogoIcon() {

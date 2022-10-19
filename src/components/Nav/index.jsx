@@ -1,4 +1,4 @@
-import { LogoIcon, SearchIcon, ShoppingCartIcon, UserIcon } from '../Icon/index'
+import { LogoIcon, SearchIcon, ShoppingCartIcon, UserIcon } from '../Common/Icon'
 import { NavContainer, SearchContainer, SearchBox, NavImgContainer } from './index.style'
 
 function Nav() {
