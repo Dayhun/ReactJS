@@ -13,7 +13,8 @@ export const TextLabel = styled.label`
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
-    margin-top: 12px;
+    margin-top: 16px;
+    margin-bottom: 10px;
 `;
 
 export const TextInput = styled.input.attrs({
@@ -21,31 +22,47 @@ export const TextInput = styled.input.attrs({
     id: 'Name',
 })`
     width: 480px;
+    height: 54px;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     text-align: left;
-    border: 1px solid #C4C4C4;
+    border: 1px solid #c4c4c4;
     border-radius: 5px;
     ::placeholder {
         /* color: #21BF48; */
     }
     &:focus {
-        border: 1px solid #21BF48
+        border: 1px solid #21bf48;
     }
+`;
+
+export const IdInput = styled(TextInput).attrs({
+    type: 'text',
+    id: 'ID',
+})`
+    width: 346px;
+    margin-right: 12px;
 `;
 
 export const EmailInput = styled(TextInput).attrs({
     type: 'email',
     id: 'loginEmail',
 })`
-    width: 100%;
+    width: 220px;
 `;
-
 
 export const PassWordInput = styled(TextInput).attrs({
     type: 'password',
     id: 'loginPassword',
 })`
     width: 100%;
+`;
+
+export const NumberInput = styled(TextInput).attrs({
+    type: 'number',
+    id: 'phonenumber',
+})`
+    width: 152px;
+    margin-right: 12px;
 `;
