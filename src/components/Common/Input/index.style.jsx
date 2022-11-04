@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import CheckOffIcon from '../../../assets/icon-check-off.svg';
 
 export const TextInputBox = styled.div`
     width: 100vw;
@@ -57,6 +58,9 @@ export const PassWordInput = styled(TextInput).attrs({
     id: 'loginPassword',
 })`
     width: 100%;
+    &::after {
+        /* background: url(${CheckOffIcon}) no-repeat; */
+    }
 `;
 
 export const NumberInput = styled(TextInput).attrs({
@@ -64,5 +68,4 @@ export const NumberInput = styled(TextInput).attrs({
     id: 'phonenumber',
 })`
     width: 152px;
-    margin-right: 12px;
 `;
