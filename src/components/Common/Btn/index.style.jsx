@@ -6,6 +6,10 @@ const LBtn = styled.button`
     border-radius: 5px;
     background-color: #21bf48;
     color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
 `;
 
 const MBtn = styled.button`
@@ -22,6 +26,8 @@ const MSBtn = styled.button`
     border-radius: 5px;
     background-color: #21bf48;
     color: white;
+    font-size: 16px;
+    line-height: 20px;
 `;
 
 const SBtn = styled.button`

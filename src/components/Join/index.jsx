@@ -15,7 +15,7 @@ import {
     TextInput,
     NumberInput,
 } from '../Common/Input/index.style';
-import { MSBtn } from '../Common/Btn/index.style';
+import { MSBtn, LBtn } from '../Common/Btn/index.style';
 
 function JoinMembership() {
     return (
@@ -50,6 +50,7 @@ function JoinMembership() {
                     </InputBox>
                 </form>
             </JoinBox>
+            <LBtn>가입하기</LBtn>
         </JoinContainer>
     );
 }
